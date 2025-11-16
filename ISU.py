@@ -25,7 +25,7 @@ else:
         exit()
 
 # Ruta del ejecutable dentro de la carpeta copiada
-ejecutable = os.path.join(carpeta_destino, "archivo.exe")
+ejecutable = os.path.join(carpeta_destino, "Sistema de Captura de Inspeccion.exe")
 
 # Ejecutar el archivo si existe
 if os.path.exists(ejecutable):
